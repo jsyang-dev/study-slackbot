@@ -17,6 +17,8 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'com.slack.api:bolt-servlet:1.30.0'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
